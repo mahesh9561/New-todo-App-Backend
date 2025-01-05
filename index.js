@@ -8,7 +8,7 @@ const authRoute = require('./routes/auth')
 const app = express();
 
 app.use(cors(
-    { origin: 'http://localhost:3000', credentials: true }
+    { origin: 'https://new-todo-app-mern.vercel.app', credentials: true }
 ));
 
 app.use(express.urlencoded({ extended: true }))
